@@ -10,4 +10,9 @@
     <string name="class_name">Class Name</string>
     <string name="email">Email</string>
     <string name="insta">Instagram</string>
+    <string name="infoMessage">Please fill in your information...</string>
+    <string name="ent_reg">Enter Register Number</string>
+    <string name="ent_email">Enter Email</string>
+    <string name="ent_class">Enter Class</string>
+    <string name="nextStep">Next</string>
 </resources>

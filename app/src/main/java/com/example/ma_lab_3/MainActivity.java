@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -17,19 +18,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void login(View view){
-        Intent intent = new Intent(this, HomeActivity.class);
+        Intent intent = new Intent(this, InfoFill.class);
 
         EditText username = findViewById(R.id.username);
         EditText password = findViewById(R.id.password);
 
-        if(username.getText().toString() == "Hemant" && password.getText().toString() == "admin"){
+        if(!username.getText().toString().equalsIgnoreCase("") && password.getText().toString().equalsIgnoreCase("admin")){
             String message = "Welcome "+username.getText().toString();
             Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
 
             intent.putExtra("username", username.getText().toString());
-            intent.putExtra("password", password.getText().toString());
 
             startActivity(intent);
+        }
+        else{
+            Toast.makeText(this, "Wrong Credentials, Try Again!", Toast.LENGTH_SHORT).show();
         }
     }
 }
