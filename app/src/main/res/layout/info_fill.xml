@@ -105,11 +105,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:backgroundTint="@color/black"
+        android:onClick="nextStep"
         android:text="@string/nextStep"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/className" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
