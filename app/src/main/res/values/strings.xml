@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MA-LAB-3</string>
+    <string name="welcome">WELCOME</string>
+    <string name="Enter_Username">Enter Username</string>
+    <string name="Enter_password">Enter Password\n</string>
+    <string name="Login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="home_username">Username</string>
+    <string name="reg_no">Register Number</string>
+    <string name="class_name">Class Name</string>
+    <string name="email">Email</string>
+</resources>
